@@ -1,0 +1,190 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "19c5b7df-fc92-4263-b71f-e45c6e810353",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "开始爬取 豆瓣电影Top250...\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "爬取进度: 100%|████████████████████████████████████████████████████████████████████████| 10/10 [00:32<00:00,  3.26s/it]"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "✅ 爬取完成！总计电影：250 部\n",
+      "✅ 已保存到 data/douban_top250_final.csv\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "import requests\n",
+    "from bs4 import BeautifulSoup\n",
+    "import random\n",
+    "import time\n",
+    "import re\n",
+    "import pandas as pd\n",
+    "from tqdm import tqdm\n",
+    "import os\n",
+    "\n",
+    "os.makedirs('data', exist_ok=True)\n",
+    "\n",
+    "# ===================== 配置 =====================\n",
+    "USER_AGENTS = [\n",
+    "    \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\n",
+    "    \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\n",
+    "]\n",
+    "\n",
+    "BASE_URL = \"https://movie.douban.com/top250\"\n",
+    "MAX_RETRY = 2\n",
+    "DELAY_MIN = 1\n",
+    "DELAY_MAX = 3\n",
+    "\n",
+    "# ===================== 工具函数 =====================\n",
+    "def get_header():\n",
+    "    return {\"User-Agent\": random.choice(USER_AGENTS)}\n",
+    "\n",
+    "def random_delay():\n",
+    "    time.sleep(random.uniform(DELAY_MIN, DELAY_MAX))\n",
+    "\n",
+    "def fetch_html(url):\n",
+    "    for i in range(MAX_RETRY):\n",
+    "        try:\n",
+    "            resp = requests.get(url, headers=get_header(), timeout=15)\n",
+    "            resp.raise_for_status()\n",
+    "            random_delay()\n",
+    "            return resp.text\n",
+    "        except Exception as e:\n",
+    "            print(f\"请求失败：{e}\")\n",
+    "            time.sleep(2)\n",
+    "    return None\n",
+    "\n",
+    "# ===================== 【终极修复】解析函数 =====================\n",
+    "def parse_movie_item(item):\n",
+    "    try:\n",
+    "        # 1. 排名\n",
+    "        rank = item.find(\"em\").text.strip()\n",
+    "\n",
+    "        # 2. 标题（中文+英文）\n",
+    "        titles = item.find_all(\"span\", class_=\"title\")\n",
+    "        title_cn = titles[0].text.strip()\n",
+    "        title_en = titles[1].text.strip().replace(\"/ \", \"\") if len(titles) > 1 else \"无\"\n",
+    "\n",
+    "        # 3. 评分 & 评价人数\n",
+    "        rating = item.find(\"span\", class_=\"rating_num\").text.strip()\n",
+    "        vote_str = item.find(string=re.compile(r\"\\d+人评价\")).strip()\n",
+    "        vote_num = re.findall(r\"\\d+\", vote_str)[0]\n",
+    "\n",
+    "        # 4. 导演&主演（只保留核心信息）\n",
+    "        info_p = item.find(\"div\", class_=\"bd\").p\n",
+    "        info_text = info_p.text.strip().replace(\"\\xa0\", \" \") if info_p else \"无信息\"\n",
+    "        # 截取导演和主演部分，过滤掉年份和地区\n",
+    "        director_actor = re.split(r'\\d{4}', info_text)[0].strip()\n",
+    "\n",
+    "        # 5. 【终极修复】简介提取\n",
+    "        # 换用更稳妥的方式，先在整个item里找，再检查文本\n",
+    "        quote = \"无简介\"\n",
+    "        quote_tag = item.find(\"span\", class_=\"inq\")\n",
+    "        if quote_tag:\n",
+    "            quote_text = quote_tag.text.strip()\n",
+    "            if quote_text:  # 确保文本不为空\n",
+    "                quote = quote_text\n",
+    "\n",
+    "        # 6. 详情链接\n",
+    "        link = item.find(\"a\")[\"href\"]\n",
+    "\n",
+    "        return {\n",
+    "            \"排名\": rank,\n",
+    "            \"中文标题\": title_cn,\n",
+    "            \"英文标题\": title_en,\n",
+    "            \"评分\": rating,\n",
+    "            \"评价人数\": vote_num,\n",
+    "            \"导演&主演\": director_actor,\n",
+    "            \"简介\": quote,\n",
+    "            \"详情链接\": link\n",
+    "        }\n",
+    "    except Exception as e:\n",
+    "        print(f\"解析失败：{e}\")\n",
+    "        return None\n",
+    "\n",
+    "# ===================== 爬取主逻辑 =====================\n",
+    "def crawl_douban_top250():\n",
+    "    all_movies = []\n",
+    "    print(\"开始爬取 豆瓣电影Top250...\")\n",
+    "\n",
+    "    for start in tqdm(range(0, 250, 25), desc=\"爬取进度\"):\n",
+    "        url = f\"{BASE_URL}?start={start}\"\n",
+    "        html = fetch_html(url)\n",
+    "        if not html:\n",
+    "            continue\n",
+    "        soup = BeautifulSoup(html, \"html.parser\")\n",
+    "        items = soup.find_all(\"div\", class_=\"item\")\n",
+    "        for item in items:\n",
+    "            data = parse_movie_item(item)\n",
+    "            if data:\n",
+    "                all_movies.append(data)\n",
+    "    return all_movies\n",
+    "\n",
+    "# ===================== 执行 & 保存 =====================\n",
+    "if __name__ == \"__main__\":\n",
+    "    movie_data = crawl_douban_top250()\n",
+    "    df = pd.DataFrame(movie_data)\n",
+    "\n",
+    "    # 保存为CSV（注意：先关闭之前的CSV文件！）\n",
+    "    df.to_csv(\"data/douban_top250_final.csv\", index=False, encoding=\"utf-8-sig\")\n",
+    "\n",
+    "    print(f\"\\n✅ 爬取完成！总计电影：{len(df)} 部\")\n",
+    "    print(\"✅ 已保存到 data/douban_top250_final.csv\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a81c6a05-34d2-4595-b4de-41d1e4a4cf47",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
