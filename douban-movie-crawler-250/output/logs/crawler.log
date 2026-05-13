@@ -1,0 +1,1244 @@
+2026-05-12 23:15:39 - anti_spider - INFO - robots.txt检查完成: 允许爬取=True, 爬取延时=3.0s
+2026-05-12 23:15:39 - anti_spider - INFO - === Robots.txt 遵守情况 ===
+2026-05-12 23:15:39 - anti_spider - INFO - 站点: movie.douban.com
+2026-05-12 23:15:39 - anti_spider - INFO - User-Agent: *
+2026-05-12 23:15:39 - anti_spider - INFO - 允许爬取 Top250: True
+2026-05-12 23:15:39 - anti_spider - INFO - 建议延时: 3.0s
+2026-05-12 23:15:39 - anti_spider - INFO - 实际遵守: 延时1-4s随机, 仅爬取公开数据, 不登录, 不过度请求
+2026-05-12 23:15:39 - anti_spider - INFO - =========================
+2026-05-12 23:15:39 - request_crawler - INFO - ==================================================
+2026-05-12 23:15:39 - request_crawler - INFO - 开始爬取豆瓣电影Top250 (requests版本)
+2026-05-12 23:15:39 - request_crawler - INFO - ==================================================
+2026-05-12 23:15:39 - request_crawler - INFO - 爬取列表页: start=0
+2026-05-12 23:15:39 - request_crawler - INFO - 列表页 start=0 解析完成，获得 25 部电影
+2026-05-12 23:15:42 - request_crawler - INFO - 爬取列表页: start=25
+2026-05-12 23:15:44 - request_crawler - INFO - 列表页 start=25 解析完成，获得 25 部电影
+2026-05-12 23:15:47 - request_crawler - INFO - 爬取列表页: start=50
+2026-05-12 23:15:47 - request_crawler - INFO - 列表页 start=50 解析完成，获得 25 部电影
+2026-05-12 23:15:51 - request_crawler - INFO - 爬取列表页: start=75
+2026-05-12 23:15:51 - request_crawler - INFO - 列表页 start=75 解析完成，获得 25 部电影
+2026-05-12 23:15:55 - request_crawler - INFO - 爬取列表页: start=100
+2026-05-12 23:15:56 - request_crawler - INFO - 列表页 start=100 解析完成，获得 25 部电影
+2026-05-12 23:15:59 - request_crawler - INFO - 爬取列表页: start=125
+2026-05-12 23:15:59 - request_crawler - INFO - 列表页 start=125 解析完成，获得 25 部电影
+2026-05-12 23:16:02 - request_crawler - INFO - 爬取列表页: start=150
+2026-05-12 23:16:03 - request_crawler - INFO - 列表页 start=150 解析完成，获得 25 部电影
+2026-05-12 23:16:06 - request_crawler - INFO - 爬取列表页: start=175
+2026-05-12 23:16:06 - request_crawler - INFO - 列表页 start=175 解析完成，获得 0 部电影
+2026-05-12 23:16:09 - request_crawler - INFO - 爬取列表页: start=200
+2026-05-12 23:16:09 - request_crawler - INFO - 列表页 start=200 解析完成，获得 0 部电影
+2026-05-12 23:16:12 - request_crawler - INFO - 爬取列表页: start=225
+2026-05-12 23:16:12 - request_crawler - INFO - 列表页 start=225 解析完成，获得 0 部电影
+2026-05-12 23:16:12 - request_crawler - INFO - 列表页爬取完成，共 175 部电影
+2026-05-12 23:16:12 - request_crawler - INFO - 开始爬取详情页...
+2026-05-12 23:16:43 - anti_spider - WARNING - 429 Too Many Requests (尝试 1/4)
+2026-05-12 23:16:43 - anti_spider - INFO - 429重试等待 8.9s
+2026-05-12 23:16:52 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/1292064/
+2026-05-12 23:16:52 - anti_spider - INFO - 403重试等待 5.5s
+2026-05-12 23:16:57 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/1292064/
+2026-05-12 23:16:57 - anti_spider - INFO - 403重试等待 9.7s
+2026-05-12 23:17:07 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/1292064/
+2026-05-12 23:17:07 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/1292064/
+2026-05-12 23:17:07 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/1292064/
+2026-05-12 23:17:10 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/1295124/
+2026-05-12 23:17:10 - anti_spider - INFO - 403重试等待 3.5s
+2026-05-12 23:17:14 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/1295124/
+2026-05-12 23:17:14 - anti_spider - INFO - 403重试等待 6.1s
+2026-05-12 23:17:20 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/1295124/
+2026-05-12 23:17:20 - anti_spider - INFO - 403重试等待 10.3s
+2026-05-12 23:17:30 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/1295124/
+2026-05-12 23:17:30 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/1295124/
+2026-05-12 23:17:30 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/1295124/
+2026-05-12 23:17:34 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/3011091/
+2026-05-12 23:17:34 - anti_spider - INFO - 403重试等待 4.4s
+2026-05-12 23:17:38 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/3011091/
+2026-05-12 23:17:38 - anti_spider - INFO - 403重试等待 5.6s
+2026-05-12 23:17:44 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/3011091/
+2026-05-12 23:17:44 - anti_spider - INFO - 403重试等待 9.8s
+2026-05-12 23:17:54 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/3011091/
+2026-05-12 23:17:54 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/3011091/
+2026-05-12 23:17:54 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/3011091/
+2026-05-12 23:17:57 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/1292001/
+2026-05-12 23:17:57 - anti_spider - INFO - 403重试等待 4.3s
+2026-05-12 23:18:01 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/1292001/
+2026-05-12 23:18:01 - anti_spider - INFO - 403重试等待 5.8s
+2026-05-12 23:18:07 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/1292001/
+2026-05-12 23:18:07 - anti_spider - INFO - 403重试等待 9.2s
+2026-05-12 23:18:16 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/1292001/
+2026-05-12 23:18:16 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/1292001/
+2026-05-12 23:18:16 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/1292001/
+2026-05-12 23:18:19 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/25662329/
+2026-05-12 23:18:19 - anti_spider - INFO - 403重试等待 3.8s
+2026-05-12 23:18:23 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/25662329/
+2026-05-12 23:18:23 - anti_spider - INFO - 403重试等待 6.3s
+2026-05-12 23:18:30 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/25662329/
+2026-05-12 23:18:30 - anti_spider - INFO - 403重试等待 10.6s
+2026-05-12 23:18:40 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/25662329/
+2026-05-12 23:18:40 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/25662329/
+2026-05-12 23:18:40 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/25662329/
+2026-05-12 23:18:43 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/3793023/
+2026-05-12 23:18:43 - anti_spider - INFO - 403重试等待 4.6s
+2026-05-12 23:18:48 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/3793023/
+2026-05-12 23:18:48 - anti_spider - INFO - 403重试等待 7.0s
+2026-05-12 23:18:55 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/3793023/
+2026-05-12 23:18:55 - anti_spider - INFO - 403重试等待 9.4s
+2026-05-12 23:19:04 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/3793023/
+2026-05-12 23:19:04 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/3793023/
+2026-05-12 23:19:04 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/3793023/
+2026-05-12 23:19:08 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/2131459/
+2026-05-12 23:19:08 - anti_spider - INFO - 403重试等待 4.5s
+2026-05-12 23:19:12 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/2131459/
+2026-05-12 23:19:12 - anti_spider - INFO - 403重试等待 6.4s
+2026-05-12 23:19:19 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/2131459/
+2026-05-12 23:19:19 - anti_spider - INFO - 403重试等待 9.3s
+2026-05-12 23:19:28 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/2131459/
+2026-05-12 23:19:28 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/2131459/
+2026-05-12 23:19:28 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/2131459/
+2026-05-12 23:19:31 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/1291549/
+2026-05-12 23:19:31 - anti_spider - INFO - 403重试等待 4.5s
+2026-05-12 23:19:36 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/1291549/
+2026-05-12 23:19:36 - anti_spider - INFO - 403重试等待 5.4s
+2026-05-12 23:19:41 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/1291549/
+2026-05-12 23:19:41 - anti_spider - INFO - 403重试等待 10.5s
+2026-05-12 23:19:52 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/1291549/
+2026-05-12 23:19:52 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/1291549/
+2026-05-12 23:19:52 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/1291549/
+2026-05-12 23:19:55 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/1307914/
+2026-05-12 23:19:55 - anti_spider - INFO - 403重试等待 4.9s
+2026-05-12 23:20:00 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/1307914/
+2026-05-12 23:20:00 - anti_spider - INFO - 403重试等待 6.1s
+2026-05-12 23:20:06 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/1307914/
+2026-05-12 23:20:06 - anti_spider - INFO - 403重试等待 10.9s
+2026-05-12 23:20:17 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/1307914/
+2026-05-12 23:20:17 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/1307914/
+2026-05-12 23:20:17 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/1307914/
+2026-05-12 23:20:21 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/1296141/
+2026-05-12 23:20:21 - anti_spider - INFO - 403重试等待 4.8s
+2026-05-12 23:20:26 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/1296141/
+2026-05-12 23:20:26 - anti_spider - INFO - 403重试等待 5.8s
+2026-05-12 23:20:31 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/1296141/
+2026-05-12 23:20:31 - anti_spider - INFO - 403重试等待 9.9s
+2026-05-12 23:20:41 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/1296141/
+2026-05-12 23:20:41 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/1296141/
+2026-05-12 23:20:41 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/1296141/
+2026-05-12 23:20:44 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/20495023/
+2026-05-12 23:20:44 - anti_spider - INFO - 403重试等待 4.4s
+2026-05-12 23:20:49 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/20495023/
+2026-05-12 23:20:49 - anti_spider - INFO - 403重试等待 6.9s
+2026-05-12 23:20:56 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/subject/20495023/
+2026-05-12 23:20:56 - anti_spider - INFO - 403重试等待 9.0s
+2026-05-12 23:21:05 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/subject/20495023/
+2026-05-12 23:21:05 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/subject/20495023/
+2026-05-12 23:21:05 - request_crawler - WARNING - 详情页爬取失败: https://movie.douban.com/subject/20495023/
+2026-05-12 23:21:08 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/subject/1292213/
+2026-05-12 23:21:08 - anti_spider - INFO - 403重试等待 4.4s
+2026-05-12 23:21:13 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/subject/1292213/
+2026-05-12 23:21:13 - anti_spider - INFO - 403重试等待 5.5s
+2026-05-12 23:37:29 - anti_spider - INFO - robots.txt检查完成: 允许爬取=True, 爬取延时=3.0s
+2026-05-12 23:37:29 - anti_spider - INFO - === Robots.txt 遵守情况 ===
+2026-05-12 23:37:29 - anti_spider - INFO - 站点: movie.douban.com
+2026-05-12 23:37:29 - anti_spider - INFO - User-Agent: *
+2026-05-12 23:37:29 - anti_spider - INFO - 允许爬取 Top250: True
+2026-05-12 23:37:29 - anti_spider - INFO - 建议延时: 3.0s
+2026-05-12 23:37:29 - anti_spider - INFO - 实际遵守: 延时1-4s随机, 仅爬取公开数据, 不登录, 不过度请求
+2026-05-12 23:37:29 - anti_spider - INFO - =========================
+2026-05-12 23:40:26 - anti_spider - INFO - robots.txt检查完成: 允许爬取=True, 爬取延时=3.0s
+2026-05-12 23:40:26 - anti_spider - INFO - === Robots.txt 遵守情况 ===
+2026-05-12 23:40:26 - anti_spider - INFO - 站点: movie.douban.com
+2026-05-12 23:40:26 - anti_spider - INFO - User-Agent: *
+2026-05-12 23:40:26 - anti_spider - INFO - 允许爬取 Top250: True
+2026-05-12 23:40:26 - anti_spider - INFO - 建议延时: 3.0s
+2026-05-12 23:40:26 - anti_spider - INFO - 实际遵守: 延时1-4s随机, 仅爬取公开数据, 不登录, 不过度请求
+2026-05-12 23:40:26 - anti_spider - INFO - =========================
+2026-05-12 23:40:26 - request_crawler - INFO - ==================================================
+2026-05-12 23:40:26 - request_crawler - INFO - 开始爬取豆瓣电影Top250 (requests版本)
+2026-05-12 23:40:26 - request_crawler - INFO - ==================================================
+2026-05-12 23:40:26 - request_crawler - INFO - 爬取列表页: start=0
+2026-05-12 23:40:26 - anti_spider - INFO - 正在预热Session，获取初始Cookie...
+2026-05-12 23:40:27 - anti_spider - INFO - 首页预热完成，状态码: 403, 获得Cookie: {'bid': '6RdRSigqfyg'}
+2026-05-12 23:40:27 - anti_spider - INFO - 电影首页预热完成，状态码: 403
+2026-05-12 23:40:27 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:40:27 - anti_spider - INFO - 403重试等待 4.4s
+2026-05-12 23:40:31 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:40:31 - anti_spider - INFO - 403重试等待 5.5s
+2026-05-12 23:40:37 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:40:37 - anti_spider - INFO - 403重试等待 10.3s
+2026-05-12 23:40:49 - anti_spider - INFO - robots.txt检查完成: 允许爬取=True, 爬取延时=3.0s
+2026-05-12 23:40:49 - anti_spider - INFO - === Robots.txt 遵守情况 ===
+2026-05-12 23:40:49 - anti_spider - INFO - 站点: movie.douban.com
+2026-05-12 23:40:49 - anti_spider - INFO - User-Agent: *
+2026-05-12 23:40:49 - anti_spider - INFO - 允许爬取 Top250: True
+2026-05-12 23:40:49 - anti_spider - INFO - 建议延时: 3.0s
+2026-05-12 23:40:49 - anti_spider - INFO - 实际遵守: 延时1-4s随机, 仅爬取公开数据, 不登录, 不过度请求
+2026-05-12 23:40:49 - anti_spider - INFO - =========================
+2026-05-12 23:40:49 - request_crawler - INFO - ==================================================
+2026-05-12 23:40:49 - request_crawler - INFO - 开始爬取豆瓣电影Top250 (requests版本)
+2026-05-12 23:40:49 - request_crawler - INFO - ==================================================
+2026-05-12 23:40:49 - request_crawler - INFO - 爬取列表页: start=0
+2026-05-12 23:40:49 - anti_spider - INFO - 正在预热Session，获取初始Cookie...
+2026-05-12 23:40:50 - anti_spider - INFO - 首页预热完成，状态码: 200, 获得Cookie: {'ll': '"118254"', 'bid': 'wg5H45zUGSo'}
+2026-05-12 23:40:50 - anti_spider - INFO - 电影首页预热完成，状态码: 403
+2026-05-12 23:40:50 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:40:50 - anti_spider - INFO - 403重试等待 4.2s
+2026-05-12 23:40:54 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:40:54 - anti_spider - INFO - 403重试等待 5.9s
+2026-05-12 23:41:00 - anti_spider - WARNING - 403 Forbidden (尝试 3/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:41:00 - anti_spider - INFO - 403重试等待 10.9s
+2026-05-12 23:41:11 - anti_spider - WARNING - 403 Forbidden (尝试 4/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:41:11 - anti_spider - ERROR - 请求最终失败 (4次尝试): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:41:11 - request_crawler - ERROR - 列表页爬取失败: start=0
+2026-05-12 23:41:14 - request_crawler - INFO - 爬取列表页: start=25
+2026-05-12 23:41:14 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/top250?start=25&filter=
+2026-05-12 23:41:14 - anti_spider - INFO - 403重试等待 4.9s
+2026-05-12 23:41:19 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/top250?start=25&filter=
+2026-05-12 23:41:19 - anti_spider - INFO - 403重试等待 6.7s
+2026-05-12 23:53:09 - anti_spider - WARNING - 无法获取robots.txt: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-12 23:53:09 - request_crawler - INFO - ==================================================
+2026-05-12 23:53:09 - request_crawler - INFO - 开始爬取豆瓣电影Top250 (requests版本)
+2026-05-12 23:53:09 - request_crawler - INFO - ==================================================
+2026-05-12 23:53:09 - request_crawler - INFO - 爬取列表页: start=0
+2026-05-12 23:53:09 - anti_spider - INFO - 正在预热Session，获取初始Cookie...
+2026-05-12 23:53:09 - anti_spider - WARNING - Session预热失败: HTTPSConnectionPool(host='www.douban.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.douban.com', port=443): Failed to resolve 'www.douban.com' ([Errno 11001] getaddrinfo failed)"))
+2026-05-12 23:53:09 - anti_spider - WARNING - 连接错误 (尝试 1/4): HTTPSConnectionPool(host='movie.douban.com', port=443): Max retries exceeded with url: /top250?start=0&filter= (Caused by NameResolutionError("HTTPSConnection(host='movie.douban.com', port=443): Failed to resolve 'movie.douban.com' ([Errno 11001] getaddrinfo failed)"))
+2026-05-12 23:53:11 - anti_spider - WARNING - 连接错误 (尝试 2/4): HTTPSConnectionPool(host='movie.douban.com', port=443): Max retries exceeded with url: /top250?start=0&filter= (Caused by NameResolutionError("HTTPSConnection(host='movie.douban.com', port=443): Failed to resolve 'movie.douban.com' ([Errno 11001] getaddrinfo failed)"))
+2026-05-12 23:53:15 - anti_spider - WARNING - 连接错误 (尝试 3/4): HTTPSConnectionPool(host='movie.douban.com', port=443): Max retries exceeded with url: /top250?start=0&filter= (Caused by NameResolutionError("HTTPSConnection(host='movie.douban.com', port=443): Failed to resolve 'movie.douban.com' ([Errno 11001] getaddrinfo failed)"))
+2026-05-12 23:53:38 - anti_spider - INFO - robots.txt检查完成: 允许爬取=True, 爬取延时=3.0s
+2026-05-12 23:53:38 - anti_spider - INFO - === Robots.txt 遵守情况 ===
+2026-05-12 23:53:38 - anti_spider - INFO - 站点: movie.douban.com
+2026-05-12 23:53:38 - anti_spider - INFO - User-Agent: *
+2026-05-12 23:53:38 - anti_spider - INFO - 允许爬取 Top250: True
+2026-05-12 23:53:38 - anti_spider - INFO - 建议延时: 3.0s
+2026-05-12 23:53:38 - anti_spider - INFO - 实际遵守: 延时1-4s随机, 仅爬取公开数据, 不登录, 不过度请求
+2026-05-12 23:53:38 - anti_spider - INFO - =========================
+2026-05-12 23:53:38 - request_crawler - INFO - ==================================================
+2026-05-12 23:53:38 - request_crawler - INFO - 开始爬取豆瓣电影Top250 (requests版本)
+2026-05-12 23:53:38 - request_crawler - INFO - ==================================================
+2026-05-12 23:53:38 - request_crawler - INFO - 爬取列表页: start=0
+2026-05-12 23:53:38 - anti_spider - INFO - 正在预热Session，获取初始Cookie...
+2026-05-12 23:53:38 - anti_spider - INFO - 首页预热完成，状态码: 200, 获得Cookie: {'ll': '"118254"', 'bid': 'OOEMnTBP23g'}
+2026-05-12 23:53:38 - anti_spider - INFO - 电影首页预热完成，状态码: 403
+2026-05-12 23:53:38 - anti_spider - WARNING - 403 Forbidden (尝试 1/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:53:38 - anti_spider - INFO - 403重试等待 4.3s
+2026-05-12 23:53:43 - anti_spider - WARNING - 403 Forbidden (尝试 2/4): https://movie.douban.com/top250?start=0&filter=
+2026-05-12 23:53:43 - anti_spider - INFO - 403重试等待 6.8s
+2026-05-13 00:04:53 - anti_spider - INFO - Cookie文件不存在: c:\Users\项玉婷\Desktop\douban-movie-crawler-250\douban_cookies.json，将使用无Cookie模式
+2026-05-13 00:09:37 - anti_spider - ERROR - Cookie文件加载失败: Expecting value: line 1 column 1 (char 0)
+2026-05-13 00:21:47 - anti_spider - INFO - 成功加载 16 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid']
+2026-05-13 00:34:35 - anti_spider - INFO - 成功加载 17 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid', 'dbcl2']
+2026-05-13 00:34:55 - anti_spider - INFO - 成功加载 17 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid', 'dbcl2']
+2026-05-13 00:34:55 - anti_spider - INFO - robots.txt检查完成: 允许爬取=True, 爬取延时=3.0s
+2026-05-13 00:34:55 - anti_spider - INFO - === Robots.txt 遵守情况 ===
+2026-05-13 00:34:55 - anti_spider - INFO - 站点: movie.douban.com
+2026-05-13 00:34:55 - anti_spider - INFO - User-Agent: *
+2026-05-13 00:34:55 - anti_spider - INFO - 允许爬取 Top250: True
+2026-05-13 00:34:55 - anti_spider - INFO - 建议延时: 3.0s
+2026-05-13 00:34:55 - anti_spider - INFO - 实际遵守: 延时1-4s随机, 仅爬取公开数据, 不登录, 不过度请求
+2026-05-13 00:34:55 - anti_spider - INFO - =========================
+2026-05-13 00:34:55 - request_crawler - INFO - ==================================================
+2026-05-13 00:34:55 - request_crawler - INFO - 开始爬取豆瓣电影Top250 (requests版本)
+2026-05-13 00:34:55 - request_crawler - INFO - ==================================================
+2026-05-13 00:34:55 - request_crawler - INFO - 爬取列表页: start=0
+2026-05-13 00:34:56 - request_crawler - INFO - 列表页 start=0 解析完成，获得 25 部电影
+2026-05-13 00:34:59 - request_crawler - INFO - 爬取列表页: start=25
+2026-05-13 00:34:59 - request_crawler - INFO - 列表页 start=25 解析完成，获得 25 部电影
+2026-05-13 00:35:02 - request_crawler - INFO - 爬取列表页: start=50
+2026-05-13 00:35:02 - request_crawler - INFO - 列表页 start=50 解析完成，获得 25 部电影
+2026-05-13 00:35:05 - request_crawler - INFO - 爬取列表页: start=75
+2026-05-13 00:35:05 - request_crawler - INFO - 列表页 start=75 解析完成，获得 0 部电影
+2026-05-13 00:35:08 - request_crawler - INFO - 爬取列表页: start=100
+2026-05-13 00:35:08 - request_crawler - INFO - 列表页 start=100 解析完成，获得 0 部电影
+2026-05-13 00:35:11 - request_crawler - INFO - 爬取列表页: start=125
+2026-05-13 00:35:11 - request_crawler - INFO - 列表页 start=125 解析完成，获得 0 部电影
+2026-05-13 00:35:15 - request_crawler - INFO - 爬取列表页: start=150
+2026-05-13 00:35:15 - request_crawler - INFO - 列表页 start=150 解析完成，获得 0 部电影
+2026-05-13 00:35:18 - request_crawler - INFO - 爬取列表页: start=175
+2026-05-13 00:35:18 - request_crawler - INFO - 列表页 start=175 解析完成，获得 0 部电影
+2026-05-13 00:35:21 - request_crawler - INFO - 爬取列表页: start=200
+2026-05-13 00:35:21 - request_crawler - INFO - 列表页 start=200 解析完成，获得 0 部电影
+2026-05-13 00:35:25 - request_crawler - INFO - 爬取列表页: start=225
+2026-05-13 00:35:25 - request_crawler - INFO - 列表页 start=225 解析完成，获得 0 部电影
+2026-05-13 00:35:25 - request_crawler - INFO - 列表页爬取完成，共 75 部电影
+2026-05-13 00:35:25 - request_crawler - INFO - 开始爬取详情页...
+2026-05-13 00:40:33 - request_crawler - INFO - 详情页爬取完成: 32/75 成功
+2026-05-13 00:45:34 - selenium_crawler - ERROR - ChromeDriver初始化失败: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-05-13 00:45:34 - selenium_crawler - ERROR - 请确保已安装Chrome浏览器和对应版本的ChromeDriver
+2026-05-13 00:45:34 - selenium_crawler - ERROR - 下载地址: https://chromedriver.chromium.org/
+2026-05-13 00:45:34 - image_downloader - INFO - 开始下载海报，共 75 部电影...
+2026-05-13 00:45:34 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\001_肖申克的救赎.jpg
+2026-05-13 00:45:34 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\002_霸王别姬.jpg
+2026-05-13 00:45:35 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\003_泰坦尼克号.jpg
+2026-05-13 00:45:36 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\004_阿甘正传.jpg
+2026-05-13 00:45:37 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\005_千与千寻.jpg
+2026-05-13 00:45:37 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\006_美丽人生.jpg
+2026-05-13 00:45:37 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\007_星际穿越.jpg
+2026-05-13 00:45:38 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\008_这个杀手不太冷.jpg
+2026-05-13 00:45:39 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\009_盗梦空间.jpg
+2026-05-13 00:45:39 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\010_楚门的世界.jpg
+2026-05-13 00:45:40 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\011_辛德勒的名单.jpg
+2026-05-13 00:45:40 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\012_忠犬八公的故事.jpg
+2026-05-13 00:45:41 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\013_海上钢琴师.jpg
+2026-05-13 00:45:42 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\014_疯狂动物城.jpg
+2026-05-13 00:45:43 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\015_三傻大闹宝莱坞.jpg
+2026-05-13 00:45:44 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\016_机器人总动员.jpg
+2026-05-13 00:45:44 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\017_放牛班的春天.jpg
+2026-05-13 00:45:45 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\018_无间道.jpg
+2026-05-13 00:45:46 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\019_控方证人.jpg
+2026-05-13 00:45:47 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\020_寻梦环游记.jpg
+2026-05-13 00:45:47 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\021_大话西游之大圣娶亲.jpg
+2026-05-13 00:45:48 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\022_熔炉.jpg
+2026-05-13 00:45:48 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\023_触不可及.jpg
+2026-05-13 00:45:49 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\024_教父.jpg
+2026-05-13 00:45:50 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\025_末代皇帝.jpg
+2026-05-13 00:45:50 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\026_哈利·波特与魔法石.jpg
+2026-05-13 00:45:51 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\027_当幸福来敲门.jpg
+2026-05-13 00:45:51 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\028_龙猫.jpg
+2026-05-13 00:45:52 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\029_活着.jpg
+2026-05-13 00:45:53 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\030_怦然心动.jpg
+2026-05-13 00:45:54 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\031_蝙蝠侠：黑暗骑士.jpg
+2026-05-13 00:45:54 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\032_指环王3：王者无敌.jpg
+2026-05-13 00:45:54 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\033_我不是药神.jpg
+2026-05-13 00:45:55 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\034_乱世佳人.jpg
+2026-05-13 00:45:56 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\035_飞屋环游记.jpg
+2026-05-13 00:45:57 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\036_让子弹飞.jpg
+2026-05-13 00:45:58 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\037_哈尔的移动城堡.jpg
+2026-05-13 00:45:58 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\038_十二怒汉.jpg
+2026-05-13 00:45:59 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\039_海蒂和爷爷.jpg
+2026-05-13 00:45:59 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\040_素媛.jpg
+2026-05-13 00:46:00 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\041_猫鼠游戏.jpg
+2026-05-13 00:46:00 - image_downloader - WARNING - 海报URL为空，跳过: C:\Users\项玉婷\Desktop\douban-movie-crawler-250\posters\042_天空之城.jpg
+2026-05-13 00:46:01 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930874010.webp
+2026-05-13 00:46:02 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930874010.webp
+2026-05-13 00:46:04 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930874010.webp
+2026-05-13 00:46:04 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930874010.webp
+2026-05-13 00:46:05 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.webp
+2026-05-13 00:46:06 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.webp
+2026-05-13 00:46:08 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.webp
+2026-05-13 00:46:08 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.webp
+2026-05-13 00:46:09 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1784592701.webp
+2026-05-13 00:46:10 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1784592701.webp
+2026-05-13 00:46:12 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1784592701.webp
+2026-05-13 00:46:12 - image_downloader - ERROR - 海报下载最终失败: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1784592701.webp
+2026-05-13 00:46:13 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1381339291.webp
+2026-05-13 00:46:14 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1381339291.webp
+2026-05-13 00:46:16 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1381339291.webp
+2026-05-13 00:46:16 - image_downloader - ERROR - 海报下载最终失败: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1381339291.webp
+2026-05-13 00:46:17 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640236255.webp
+2026-05-13 00:46:18 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640236255.webp
+2026-05-13 00:46:20 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640236255.webp
+2026-05-13 00:46:20 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640236255.webp
+2026-05-13 00:46:21 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575465690.webp
+2026-05-13 00:46:22 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575465690.webp
+2026-05-13 00:46:24 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575465690.webp
+2026-05-13 00:46:24 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575465690.webp
+2026-05-13 00:46:25 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.webp
+2026-05-13 00:46:26 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.webp
+2026-05-13 00:46:28 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.webp
+2026-05-13 00:46:28 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.webp
+2026-05-13 00:46:29 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.webp
+2026-05-13 00:46:30 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.webp
+2026-05-13 00:46:32 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.webp
+2026-05-13 00:46:32 - image_downloader - ERROR - 海报下载最终失败: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.webp
+2026-05-13 00:46:33 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2875749222.webp
+2026-05-13 00:46:34 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2875749222.webp
+2026-05-13 00:46:36 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2875749222.webp
+2026-05-13 00:46:36 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2875749222.webp
+2026-05-13 00:46:37 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550757929.webp
+2026-05-13 00:46:38 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550757929.webp
+2026-05-13 00:46:40 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550757929.webp
+2026-05-13 00:46:40 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550757929.webp
+2026-05-13 00:46:41 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.webp
+2026-05-13 00:46:42 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.webp
+2026-05-13 00:46:44 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.webp
+2026-05-13 00:46:44 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.webp
+2026-05-13 00:46:45 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.webp
+2026-05-13 00:46:46 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.webp
+2026-05-13 00:46:48 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.webp
+2026-05-13 00:46:48 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.webp
+2026-05-13 00:46:48 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2197698335.webp
+2026-05-13 00:46:50 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2197698335.webp
+2026-05-13 00:46:52 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2197698335.webp
+2026-05-13 00:46:52 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2197698335.webp
+2026-05-13 00:46:52 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.webp
+2026-05-13 00:46:53 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.webp
+2026-05-13 00:46:55 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.webp
+2026-05-13 00:46:55 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.webp
+2026-05-13 00:46:56 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.webp
+2026-05-13 00:46:57 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.webp
+2026-05-13 00:46:59 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.webp
+2026-05-13 00:46:59 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.webp
+2026-05-13 00:47:00 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p726659067.webp
+2026-05-13 00:47:01 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p726659067.webp
+2026-05-13 00:47:03 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p726659067.webp
+2026-05-13 00:47:03 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p726659067.webp
+2026-05-13 00:47:03 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2653054340.webp
+2026-05-13 00:47:04 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2653054340.webp
+2026-05-13 00:47:07 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2653054340.webp
+2026-05-13 00:47:07 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2653054340.webp
+2026-05-13 00:47:08 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1910899751.webp
+2026-05-13 00:47:09 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1910899751.webp
+2026-05-13 00:47:11 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1910899751.webp
+2026-05-13 00:47:11 - image_downloader - ERROR - 海报下载最终失败: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1910899751.webp
+2026-05-13 00:47:11 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2158166535.webp
+2026-05-13 00:47:12 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2158166535.webp
+2026-05-13 00:47:15 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2158166535.webp
+2026-05-13 00:47:15 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2158166535.webp
+2026-05-13 00:47:15 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.webp
+2026-05-13 00:47:16 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.webp
+2026-05-13 00:47:18 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.webp
+2026-05-13 00:47:18 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2192535722.webp
+2026-05-13 00:47:19 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910931622.webp
+2026-05-13 00:47:20 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910931622.webp
+2026-05-13 00:47:22 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910931622.webp
+2026-05-13 00:47:22 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910931622.webp
+2026-05-13 00:47:22 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1665997400.webp
+2026-05-13 00:47:24 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1665997400.webp
+2026-05-13 00:47:26 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1665997400.webp
+2026-05-13 00:47:26 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1665997400.webp
+2026-05-13 00:47:26 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1473670352.webp
+2026-05-13 00:47:27 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1473670352.webp
+2026-05-13 00:47:29 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1473670352.webp
+2026-05-13 00:47:29 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1473670352.webp
+2026-05-13 00:47:30 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913457020.webp
+2026-05-13 00:47:31 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913457020.webp
+2026-05-13 00:47:33 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913457020.webp
+2026-05-13 00:47:33 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913457020.webp
+2026-05-13 00:47:34 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.webp
+2026-05-13 00:47:35 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.webp
+2026-05-13 00:47:37 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.webp
+2026-05-13 00:47:37 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.webp
+2026-05-13 00:47:38 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.webp
+2026-05-13 00:47:39 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.webp
+2026-05-13 00:47:41 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.webp
+2026-05-13 00:47:41 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.webp
+2026-05-13 00:47:42 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1808872109.webp
+2026-05-13 00:47:43 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1808872109.webp
+2026-05-13 00:47:45 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1808872109.webp
+2026-05-13 00:47:45 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1808872109.webp
+2026-05-13 00:48:41 - anti_spider - INFO - 成功加载 17 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid', 'dbcl2']
+2026-05-13 00:49:05 - anti_spider - INFO - 成功加载 17 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid', 'dbcl2']
+2026-05-13 00:49:26 - anti_spider - INFO - 成功加载 17 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid', 'dbcl2']
+2026-05-13 00:50:12 - anti_spider - INFO - 成功加载 17 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid', 'dbcl2']
+2026-05-13 00:50:32 - anti_spider - INFO - 成功加载 17 条Cookie: ['bid', 'ck', '_pk_ref.100001.4cf6', '_pk_id.100001.4cf6', '_pk_ses.100001.4cf6', '__utma', '__utmb', '__utmc', '__utmz', '__utma', '__utmb', '__utmc', '__utmz', 'push_noty_num', 'push_doumail_num', '__yadk_uid', 'dbcl2']
+2026-05-13 00:56:20 - selenium_crawler - INFO - 使用Chrome用户数据: C:\Users\项玉婷\AppData\Local\Google\Chrome\User Data
+2026-05-13 00:57:23 - selenium_crawler - ERROR - ChromeDriver初始化失败: Message: session not created: DevToolsActivePort file doesn't exist; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70df7d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff70df7d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff70dccd59d]
+	chromedriver!(No symbol) [0x7ff70dd14056]
+	chromedriver!(No symbol) [0x7ff70dd0f253]
+	chromedriver!(No symbol) [0x7ff70dd09b59]
+	chromedriver!(No symbol) [0x7ff70dd5d9e1]
+	chromedriver!(No symbol) [0x7ff70dd5d246]
+	chromedriver!(No symbol) [0x7ff70dd19608]
+	chromedriver!(No symbol) [0x7ff70dd1a4f3]
+	chromedriver!GetHandleVerifier [0x7ff70e27b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff70e275c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff70e298fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff70df9a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff70dfa2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff70df86a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff70df86bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff70df6b2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffc2097e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc217ec3fc+2c]
+
+2026-05-13 00:57:23 - selenium_crawler - ERROR - 可能原因:
+2026-05-13 00:57:23 - selenium_crawler - ERROR -   1. ChromeDriver版本与Chrome浏览器不匹配
+2026-05-13 00:57:23 - selenium_crawler - ERROR -   2. Chrome浏览器未安装
+2026-05-13 00:57:23 - selenium_crawler - ERROR -   3. Chrome正在运行中(请先关闭Chrome)
+2026-05-13 00:57:23 - selenium_crawler - ERROR -      Chrome用户数据被锁 -> 关闭所有Chrome窗口后重试
+2026-05-13 01:04:48 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:04:49 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:04:49 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 01:04:49 - selenium_crawler - INFO - 共 10 页, 短评=True, 详情=True
+2026-05-13 01:04:49 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:04:51 - selenium_crawler - INFO - 已注入 17 条Cookie到浏览器
+2026-05-13 01:04:53 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 01:11:46 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:11:48 - selenium_crawler - ERROR - ChromeDriver初始化失败: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70df7d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff70df7d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff70dccd59d]
+	chromedriver!(No symbol) [0x7ff70dd0e6fb]
+	chromedriver!(No symbol) [0x7ff70dd09b59]
+	chromedriver!(No symbol) [0x7ff70dd5d9e1]
+	chromedriver!(No symbol) [0x7ff70dd5d246]
+	chromedriver!(No symbol) [0x7ff70dd19608]
+	chromedriver!(No symbol) [0x7ff70dd1a4f3]
+	chromedriver!GetHandleVerifier [0x7ff70e27b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff70e275c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff70e298fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff70df9a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff70dfa2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff70df86a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff70df86bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff70df6b2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffc2097e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc217ec3fc+2c]
+
+2026-05-13 01:11:48 - selenium_crawler - ERROR - 可能原因:
+2026-05-13 01:11:48 - selenium_crawler - ERROR -   1. ChromeDriver版本与Chrome浏览器不匹配
+2026-05-13 01:11:48 - selenium_crawler - ERROR -   2. Chrome浏览器未安装
+2026-05-13 01:11:48 - selenium_crawler - ERROR -   3. Chrome正在运行中(请先关闭Chrome)
+2026-05-13 01:11:48 - selenium_crawler - ERROR -      Chrome用户数据被锁 -> 关闭所有Chrome窗口后重试
+2026-05-13 01:12:27 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:12:27 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:12:27 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 01:12:27 - selenium_crawler - INFO - 共 10 页, 短评=True, 详情=True
+2026-05-13 01:12:27 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:12:29 - selenium_crawler - INFO - 已注入 17 条Cookie到浏览器
+2026-05-13 01:12:31 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 01:12:36 - selenium_crawler - INFO -   使用选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:17:48 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:17:48 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:17:48 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 01:17:48 - selenium_crawler - INFO - 共 10 页, 短评=True, 详情=True
+2026-05-13 01:17:48 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:17:51 - selenium_crawler - INFO - 已注入 17 条Cookie到浏览器
+2026-05-13 01:17:53 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 01:17:57 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:17:59 - selenium_crawler - INFO - 列表页 start=0 完成, 获得 25 部
+2026-05-13 01:18:02 - selenium_crawler - INFO - --- 列表页 2/10 (start=25) ---
+2026-05-13 01:18:04 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:18:06 - selenium_crawler - INFO - 列表页 start=25 完成, 获得 25 部
+2026-05-13 01:18:11 - selenium_crawler - INFO - --- 列表页 3/10 (start=50) ---
+2026-05-13 01:18:13 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:18:15 - selenium_crawler - INFO - 列表页 start=50 完成, 获得 25 部
+2026-05-13 01:18:17 - selenium_crawler - INFO - --- 列表页 4/10 (start=75) ---
+2026-05-13 01:18:19 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:18:21 - selenium_crawler - INFO - 列表页 start=75 完成, 获得 25 部
+2026-05-13 01:18:23 - selenium_crawler - INFO - --- 列表页 5/10 (start=100) ---
+2026-05-13 01:18:27 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:18:29 - selenium_crawler - INFO - 列表页 start=100 完成, 获得 25 部
+2026-05-13 01:18:31 - selenium_crawler - INFO - --- 列表页 6/10 (start=125) ---
+2026-05-13 01:18:34 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:18:36 - selenium_crawler - INFO - 列表页 start=125 完成, 获得 25 部
+2026-05-13 01:18:39 - selenium_crawler - INFO - --- 列表页 7/10 (start=150) ---
+2026-05-13 01:18:42 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:18:44 - selenium_crawler - INFO - 列表页 start=150 完成, 获得 25 部
+2026-05-13 01:18:48 - selenium_crawler - INFO - --- 列表页 8/10 (start=175) ---
+2026-05-13 01:18:51 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:18:52 - selenium_crawler - INFO - 列表页 start=175 完成, 获得 25 部
+2026-05-13 01:18:57 - selenium_crawler - INFO - --- 列表页 9/10 (start=200) ---
+2026-05-13 01:18:59 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:19:01 - selenium_crawler - INFO - 列表页 start=200 完成, 获得 25 部
+2026-05-13 01:19:04 - selenium_crawler - INFO - --- 列表页 10/10 (start=225) ---
+2026-05-13 01:19:08 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:19:10 - selenium_crawler - INFO - 列表页 start=225 完成, 获得 25 部
+2026-05-13 01:19:10 - selenium_crawler - INFO - 列表页爬取完成: 250 部电影
+2026-05-13 01:19:10 - selenium_crawler - INFO - --- 开始爬取详情页 ---
+2026-05-13 01:19:10 - selenium_crawler - INFO - 详情页进度: 1/250
+2026-05-13 01:20:09 - selenium_crawler - INFO - 详情页进度: 11/250
+2026-05-13 01:21:04 - selenium_crawler - INFO - 详情页进度: 21/250
+2026-05-13 01:21:54 - selenium_crawler - INFO - 详情页进度: 31/250
+2026-05-13 01:22:48 - selenium_crawler - INFO - 详情页进度: 41/250
+2026-05-13 01:23:44 - selenium_crawler - INFO - 详情页进度: 51/250
+2026-05-13 01:24:42 - selenium_crawler - INFO - 详情页进度: 61/250
+2026-05-13 01:25:38 - selenium_crawler - INFO - 详情页进度: 71/250
+2026-05-13 01:26:32 - selenium_crawler - INFO - 详情页进度: 81/250
+2026-05-13 01:27:23 - selenium_crawler - INFO - 详情页进度: 91/250
+2026-05-13 01:28:17 - selenium_crawler - INFO - 详情页进度: 101/250
+2026-05-13 01:29:16 - selenium_crawler - INFO - 详情页进度: 111/250
+2026-05-13 01:30:14 - selenium_crawler - INFO - 详情页进度: 121/250
+2026-05-13 01:31:07 - selenium_crawler - INFO - 详情页进度: 131/250
+2026-05-13 01:32:04 - selenium_crawler - INFO - 详情页进度: 141/250
+2026-05-13 01:33:01 - selenium_crawler - INFO - 详情页进度: 151/250
+2026-05-13 01:33:55 - selenium_crawler - INFO - 详情页进度: 161/250
+2026-05-13 01:34:49 - selenium_crawler - INFO - 详情页进度: 171/250
+2026-05-13 01:35:44 - selenium_crawler - INFO - 详情页进度: 181/250
+2026-05-13 01:36:38 - selenium_crawler - INFO - 详情页进度: 191/250
+2026-05-13 01:37:34 - selenium_crawler - INFO - 详情页进度: 201/250
+2026-05-13 01:38:28 - selenium_crawler - INFO - 详情页进度: 211/250
+2026-05-13 01:39:20 - selenium_crawler - INFO - 详情页进度: 221/250
+2026-05-13 01:40:14 - selenium_crawler - INFO - 详情页进度: 231/250
+2026-05-13 01:41:12 - selenium_crawler - INFO - 详情页进度: 241/250
+2026-05-13 01:42:05 - selenium_crawler - INFO - --- 开始爬取短评 ---
+2026-05-13 01:42:05 - selenium_crawler - INFO - 短评进度: 1/250, 已获取 0 条
+2026-05-13 01:44:08 - selenium_crawler - INFO - 短评进度: 6/250, 已获取 0 条
+2026-05-13 01:46:11 - selenium_crawler - INFO - 短评进度: 11/250, 已获取 0 条
+2026-05-13 01:46:53 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:46:55 - selenium_crawler - ERROR - ChromeDriver初始化失败: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70df7d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff70df7d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff70dccd59d]
+	chromedriver!(No symbol) [0x7ff70dd0e6fb]
+	chromedriver!(No symbol) [0x7ff70dd09b59]
+	chromedriver!(No symbol) [0x7ff70dd5d9e1]
+	chromedriver!(No symbol) [0x7ff70dd5d246]
+	chromedriver!(No symbol) [0x7ff70dd19608]
+	chromedriver!(No symbol) [0x7ff70dd1a4f3]
+	chromedriver!GetHandleVerifier [0x7ff70e27b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff70e275c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff70e298fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff70df9a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff70dfa2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff70df86a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff70df86bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff70df6b2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffc2097e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc217ec3fc+2c]
+
+2026-05-13 01:46:55 - selenium_crawler - ERROR - 可能原因:
+2026-05-13 01:46:55 - selenium_crawler - ERROR -   1. ChromeDriver版本与Chrome浏览器不匹配
+2026-05-13 01:46:55 - selenium_crawler - ERROR -   2. Chrome浏览器未安装
+2026-05-13 01:46:55 - selenium_crawler - ERROR -   3. Chrome正在运行中(请先关闭Chrome)
+2026-05-13 01:46:55 - selenium_crawler - ERROR -      Chrome用户数据被锁 -> 关闭所有Chrome窗口后重试
+2026-05-13 01:48:14 - selenium_crawler - INFO - 短评进度: 16/250, 已获取 0 条
+2026-05-13 01:49:40 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:49:43 - selenium_crawler - ERROR - ChromeDriver初始化失败: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70df7d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff70df7d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff70dccd59d]
+	chromedriver!(No symbol) [0x7ff70dd0e6fb]
+	chromedriver!(No symbol) [0x7ff70dd09b59]
+	chromedriver!(No symbol) [0x7ff70dd5d9e1]
+	chromedriver!(No symbol) [0x7ff70dd5d246]
+	chromedriver!(No symbol) [0x7ff70dd19608]
+	chromedriver!(No symbol) [0x7ff70dd1a4f3]
+	chromedriver!GetHandleVerifier [0x7ff70e27b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff70e275c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff70e298fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff70df9a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff70dfa2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff70df86a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff70df86bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff70df6b2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffc2097e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc217ec3fc+2c]
+
+2026-05-13 01:49:43 - selenium_crawler - ERROR - 可能原因:
+2026-05-13 01:49:43 - selenium_crawler - ERROR -   1. ChromeDriver版本与Chrome浏览器不匹配
+2026-05-13 01:49:43 - selenium_crawler - ERROR -   2. Chrome浏览器未安装
+2026-05-13 01:49:43 - selenium_crawler - ERROR -   3. Chrome正在运行中(请先关闭Chrome)
+2026-05-13 01:49:43 - selenium_crawler - ERROR -      Chrome用户数据被锁 -> 关闭所有Chrome窗口后重试
+2026-05-13 01:49:53 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:49:53 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:49:53 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 01:49:53 - selenium_crawler - INFO - 共 10 页, 短评=True, 详情=True
+2026-05-13 01:49:53 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:49:56 - selenium_crawler - INFO - 已注入 17/17 条Cookie到浏览器
+2026-05-13 01:49:58 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 01:50:02 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:50:04 - selenium_crawler - INFO - 列表页 start=0 完成, 获得 25 部
+2026-05-13 01:50:09 - selenium_crawler - INFO - --- 列表页 2/10 (start=25) ---
+2026-05-13 01:50:12 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:50:13 - selenium_crawler - INFO - 列表页 start=25 完成, 获得 25 部
+2026-05-13 01:50:18 - selenium_crawler - INFO - --- 列表页 3/10 (start=50) ---
+2026-05-13 01:50:21 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:50:23 - selenium_crawler - INFO - 列表页 start=50 完成, 获得 25 部
+2026-05-13 01:50:26 - selenium_crawler - INFO - --- 列表页 4/10 (start=75) ---
+2026-05-13 01:50:28 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:50:30 - selenium_crawler - INFO - 列表页 start=75 完成, 获得 25 部
+2026-05-13 01:50:34 - selenium_crawler - INFO - --- 列表页 5/10 (start=100) ---
+2026-05-13 01:50:37 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:50:38 - selenium_crawler - INFO - 列表页 start=100 完成, 获得 25 部
+2026-05-13 01:50:42 - selenium_crawler - INFO - --- 列表页 6/10 (start=125) ---
+2026-05-13 01:50:45 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:50:46 - selenium_crawler - INFO - 列表页 start=125 完成, 获得 25 部
+2026-05-13 01:50:49 - selenium_crawler - INFO - --- 列表页 7/10 (start=150) ---
+2026-05-13 01:50:52 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:50:54 - selenium_crawler - INFO - 列表页 start=150 完成, 获得 25 部
+2026-05-13 01:50:58 - selenium_crawler - INFO - --- 列表页 8/10 (start=175) ---
+2026-05-13 01:51:00 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:51:02 - selenium_crawler - INFO - 列表页 start=175 完成, 获得 25 部
+2026-05-13 01:51:06 - selenium_crawler - INFO - --- 列表页 9/10 (start=200) ---
+2026-05-13 01:51:08 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:51:10 - selenium_crawler - INFO - 列表页 start=200 完成, 获得 25 部
+2026-05-13 01:51:15 - selenium_crawler - INFO - --- 列表页 10/10 (start=225) ---
+2026-05-13 01:51:19 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:51:20 - selenium_crawler - INFO - 列表页 start=225 完成, 获得 25 部
+2026-05-13 01:51:20 - selenium_crawler - INFO - 列表页爬取完成: 250 部电影
+2026-05-13 01:51:20 - selenium_crawler - INFO - --- 开始爬取详情页 ---
+2026-05-13 01:51:20 - selenium_crawler - INFO - 详情页进度: 1/250
+2026-05-13 01:52:12 - selenium_crawler - INFO - 详情页进度: 11/250
+2026-05-13 01:53:07 - selenium_crawler - INFO - 详情页进度: 21/250
+2026-05-13 01:53:34 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 01:53:35 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:53:35 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 01:53:35 - selenium_crawler - INFO - 已有=0, 需爬列表=True, 详情=True, 短评=True
+2026-05-13 01:53:35 - selenium_crawler - INFO - ==================================================
+2026-05-13 01:53:37 - selenium_crawler - INFO - 已注入 17/17 条Cookie到浏览器
+2026-05-13 01:53:39 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 01:53:42 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:53:44 - selenium_crawler - INFO - 列表页 start=0 完成, 获得 25 部
+2026-05-13 01:53:48 - selenium_crawler - INFO - --- 列表页 2/10 (start=25) ---
+2026-05-13 01:53:52 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:53:53 - selenium_crawler - INFO - 列表页 start=25 完成, 获得 25 部
+2026-05-13 01:53:56 - selenium_crawler - INFO - --- 列表页 3/10 (start=50) ---
+2026-05-13 01:53:58 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:54:00 - selenium_crawler - INFO - 列表页 start=50 完成, 获得 25 部
+2026-05-13 01:54:03 - selenium_crawler - INFO - --- 列表页 4/10 (start=75) ---
+2026-05-13 01:54:07 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:54:09 - selenium_crawler - INFO - 列表页 start=75 完成, 获得 25 部
+2026-05-13 01:54:11 - selenium_crawler - INFO - --- 列表页 5/10 (start=100) ---
+2026-05-13 01:55:01 - selenium_crawler - INFO -   选择器: .article ol li, 找到 25 个
+2026-05-13 01:55:03 - selenium_crawler - INFO - 列表页 start=100 完成, 获得 25 部
+2026-05-13 01:55:06 - selenium_crawler - INFO - --- 列表页 6/10 (start=125) ---
+2026-05-13 01:55:08 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:55:10 - selenium_crawler - INFO - 列表页 start=125 完成, 获得 25 部
+2026-05-13 01:55:13 - selenium_crawler - INFO - --- 列表页 7/10 (start=150) ---
+2026-05-13 01:55:18 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:55:19 - selenium_crawler - INFO - 列表页 start=150 完成, 获得 25 部
+2026-05-13 01:55:23 - selenium_crawler - INFO - --- 列表页 8/10 (start=175) ---
+2026-05-13 01:55:26 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:55:28 - selenium_crawler - INFO - 列表页 start=175 完成, 获得 25 部
+2026-05-13 01:55:31 - selenium_crawler - INFO - --- 列表页 9/10 (start=200) ---
+2026-05-13 01:55:35 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:55:37 - selenium_crawler - INFO - 列表页 start=200 完成, 获得 25 部
+2026-05-13 01:55:39 - selenium_crawler - INFO - --- 列表页 10/10 (start=225) ---
+2026-05-13 01:55:44 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 01:55:45 - selenium_crawler - INFO - 列表页 start=225 完成, 获得 25 部
+2026-05-13 01:55:45 - selenium_crawler - INFO - 列表页完成: 250 部
+2026-05-13 01:55:45 - selenium_crawler - INFO - --- 详情页: 250 部待爬 ---
+2026-05-13 01:55:45 - selenium_crawler - INFO - 详情进度: 1/250
+2026-05-13 01:56:42 - selenium_crawler - INFO - 详情进度: 11/250
+2026-05-13 01:57:31 - selenium_crawler - INFO - 详情进度: 21/250
+2026-05-13 01:58:21 - selenium_crawler - INFO - 详情进度: 31/250
+2026-05-13 01:59:17 - selenium_crawler - INFO - 详情进度: 41/250
+2026-05-13 02:01:39 - selenium_crawler - ERROR - 详情信息异常: https://movie.douban.com/subject/1296736/, HTTPConnectionPool(host='localhost', port=61659): Read timed out. (read timeout=120)
+2026-05-13 02:01:55 - selenium_crawler - ERROR - 详情信息异常: https://movie.douban.com/subject/1291572/, Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.97)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70df7d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff70df7d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff70dccd59d]
+	chromedriver!(No symbol) [0x7ff70dca40f2]
+	chromedriver!(No symbol) [0x7ff70dd56c16]
+	chromedriver!(No symbol) [0x7ff70dd73e02]
+	chromedriver!(No symbol) [0x7ff70dd19608]
+	chromedriver!(No symbol) [0x7ff70dd1a4f3]
+	chromedriver!GetHandleVerifier [0x7ff70e27b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff70e275c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff70e298fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff70df9a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff70dfa2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff70df86a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff70df86bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff70df6b2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffc2097e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc217ec3fc+2c]
+
+2026-05-13 02:01:57 - selenium_crawler - ERROR - 详情信息异常: https://movie.douban.com/subject/1291548/, Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.97)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff70df7d685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff70df7d6f0+14f60]
+	chromedriver!(No symbol) [0x7ff70dccd59d]
+	chromedriver!(No symbol) [0x7ff70dca40f2]
+	chromedriver!(No symbol) [0x7ff70dd56c16]
+	chromedriver!(No symbol) [0x7ff70dd73e02]
+	chromedriver!(No symbol) [0x7ff70dd19608]
+	chromedriver!(No symbol) [0x7ff70dd1a4f3]
+	chromedriver!GetHandleVerifier [0x7ff70e27b719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff70e275c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff70e298fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff70df9a435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff70dfa2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff70df86a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff70df86bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff70df6b2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffc2097e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffc217ec3fc+2c]
+
+2026-05-13 10:13:20 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 10:13:21 - selenium_crawler - INFO - ==================================================
+2026-05-13 10:13:21 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 10:13:21 - selenium_crawler - INFO - 已有=0, 需爬列表=True, 详情=True, 短评=True
+2026-05-13 10:13:21 - selenium_crawler - INFO - ==================================================
+2026-05-13 10:13:25 - selenium_crawler - INFO - 已注入 17/17 条Cookie到浏览器
+2026-05-13 10:13:27 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 10:13:31 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:13:32 - selenium_crawler - INFO - 列表页 start=0 完成, 获得 25 部
+2026-05-13 10:13:34 - selenium_crawler - INFO - --- 列表页 2/10 (start=25) ---
+2026-05-13 10:13:38 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:13:40 - selenium_crawler - INFO - 列表页 start=25 完成, 获得 25 部
+2026-05-13 10:13:42 - selenium_crawler - INFO - --- 列表页 3/10 (start=50) ---
+2026-05-13 10:13:45 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:13:46 - selenium_crawler - INFO - 列表页 start=50 完成, 获得 25 部
+2026-05-13 10:13:49 - selenium_crawler - INFO - --- 列表页 4/10 (start=75) ---
+2026-05-13 10:13:52 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:13:53 - selenium_crawler - INFO - 列表页 start=75 完成, 获得 25 部
+2026-05-13 10:13:57 - selenium_crawler - INFO - --- 列表页 5/10 (start=100) ---
+2026-05-13 10:13:59 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:14:00 - selenium_crawler - INFO - 列表页 start=100 完成, 获得 25 部
+2026-05-13 10:14:03 - selenium_crawler - INFO - --- 列表页 6/10 (start=125) ---
+2026-05-13 10:14:08 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:14:09 - selenium_crawler - INFO - 列表页 start=125 完成, 获得 25 部
+2026-05-13 10:14:13 - selenium_crawler - INFO - --- 列表页 7/10 (start=150) ---
+2026-05-13 10:14:15 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:14:17 - selenium_crawler - INFO - 列表页 start=150 完成, 获得 25 部
+2026-05-13 10:14:21 - selenium_crawler - INFO - --- 列表页 8/10 (start=175) ---
+2026-05-13 10:14:23 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:14:26 - selenium_crawler - INFO - 列表页 start=175 完成, 获得 25 部
+2026-05-13 10:14:28 - selenium_crawler - INFO - --- 列表页 9/10 (start=200) ---
+2026-05-13 10:14:31 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:14:33 - selenium_crawler - INFO - 列表页 start=200 完成, 获得 25 部
+2026-05-13 10:14:38 - selenium_crawler - INFO - --- 列表页 10/10 (start=225) ---
+2026-05-13 10:14:41 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 10:14:43 - selenium_crawler - INFO - 列表页 start=225 完成, 获得 25 部
+2026-05-13 10:14:43 - selenium_crawler - INFO - 列表页完成: 250 部
+2026-05-13 10:14:43 - selenium_crawler - INFO - --- 详情页: 250 部待爬 ---
+2026-05-13 10:14:43 - selenium_crawler - INFO - 详情进度: 1/250
+2026-05-13 10:15:36 - selenium_crawler - INFO - 详情进度: 11/250
+2026-05-13 10:16:31 - selenium_crawler - INFO - 详情进度: 21/250
+2026-05-13 10:17:24 - selenium_crawler - INFO - 详情进度: 31/250
+2026-05-13 10:18:22 - selenium_crawler - INFO - 详情进度: 41/250
+2026-05-13 10:19:12 - selenium_crawler - INFO - 详情进度: 51/250
+2026-05-13 10:20:10 - selenium_crawler - INFO - 详情进度: 61/250
+2026-05-13 10:21:14 - selenium_crawler - INFO - 详情进度: 71/250
+2026-05-13 10:22:16 - selenium_crawler - INFO - 详情进度: 81/250
+2026-05-13 10:23:16 - selenium_crawler - INFO - 详情进度: 91/250
+2026-05-13 10:24:15 - selenium_crawler - INFO - 详情进度: 101/250
+2026-05-13 10:25:11 - selenium_crawler - INFO - 详情进度: 111/250
+2026-05-13 10:26:11 - selenium_crawler - INFO - 详情进度: 121/250
+2026-05-13 10:27:04 - selenium_crawler - INFO - 详情进度: 131/250
+2026-05-13 10:28:07 - selenium_crawler - INFO - 详情进度: 141/250
+2026-05-13 10:29:11 - selenium_crawler - INFO - 详情进度: 151/250
+2026-05-13 10:30:16 - selenium_crawler - INFO - 详情进度: 161/250
+2026-05-13 10:31:15 - selenium_crawler - INFO - 详情进度: 171/250
+2026-05-13 10:32:19 - selenium_crawler - INFO - 详情进度: 181/250
+2026-05-13 10:33:17 - selenium_crawler - INFO - 详情进度: 191/250
+2026-05-13 10:34:17 - selenium_crawler - INFO - 详情进度: 201/250
+2026-05-13 10:35:18 - selenium_crawler - INFO - 详情进度: 211/250
+2026-05-13 10:36:19 - selenium_crawler - INFO - 详情进度: 221/250
+2026-05-13 10:37:21 - selenium_crawler - INFO - 详情进度: 231/250
+2026-05-13 10:38:19 - selenium_crawler - INFO - 详情进度: 241/250
+2026-05-13 10:39:47 - selenium_crawler - INFO - --- 短评: 250 部待爬 ---
+2026-05-13 10:39:47 - selenium_crawler - INFO - 短评进度: 1/250, 已获0条
+2026-05-13 10:41:54 - selenium_crawler - INFO - 短评进度: 6/250, 已获100条
+2026-05-13 10:43:39 - selenium_crawler - INFO - 短评进度: 11/250, 已获200条
+2026-05-13 10:45:24 - selenium_crawler - INFO - 短评进度: 16/250, 已获300条
+2026-05-13 10:47:10 - selenium_crawler - INFO - 短评进度: 21/250, 已获400条
+2026-05-13 10:48:55 - selenium_crawler - INFO - 短评进度: 26/250, 已获500条
+2026-05-13 10:50:32 - selenium_crawler - INFO - 短评进度: 31/250, 已获600条
+2026-05-13 10:52:05 - selenium_crawler - INFO - 短评进度: 36/250, 已获700条
+2026-05-13 10:53:37 - selenium_crawler - INFO - 短评进度: 41/250, 已获800条
+2026-05-13 10:55:13 - selenium_crawler - INFO - 短评进度: 46/250, 已获900条
+2026-05-13 10:56:47 - selenium_crawler - INFO - 短评进度: 51/250, 已获1000条
+2026-05-13 10:58:23 - selenium_crawler - INFO - 短评进度: 56/250, 已获1100条
+2026-05-13 10:59:54 - selenium_crawler - INFO - 短评进度: 61/250, 已获1200条
+2026-05-13 11:01:24 - selenium_crawler - INFO - 短评进度: 66/250, 已获1300条
+2026-05-13 11:02:58 - selenium_crawler - INFO - 短评进度: 71/250, 已获1400条
+2026-05-13 11:10:21 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 11:10:24 - selenium_crawler - INFO - ==================================================
+2026-05-13 11:10:24 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 11:10:24 - selenium_crawler - INFO - 已有=0, 需爬列表=True, 详情=True, 短评=True
+2026-05-13 11:10:24 - selenium_crawler - INFO - ==================================================
+2026-05-13 11:10:28 - selenium_crawler - INFO - 已注入 17/17 条Cookie到浏览器
+2026-05-13 11:10:30 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 11:10:34 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:10:35 - selenium_crawler - INFO - 列表页 start=0 完成, 获得 25 部
+2026-05-13 11:10:38 - selenium_crawler - INFO - --- 列表页 2/10 (start=25) ---
+2026-05-13 11:10:40 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:10:42 - selenium_crawler - INFO - 列表页 start=25 完成, 获得 25 部
+2026-05-13 11:10:44 - selenium_crawler - INFO - --- 列表页 3/10 (start=50) ---
+2026-05-13 11:10:48 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:10:49 - selenium_crawler - INFO - 列表页 start=50 完成, 获得 25 部
+2026-05-13 11:10:52 - selenium_crawler - INFO - --- 列表页 4/10 (start=75) ---
+2026-05-13 11:10:55 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:10:56 - selenium_crawler - INFO - 列表页 start=75 完成, 获得 25 部
+2026-05-13 11:11:00 - selenium_crawler - INFO - --- 列表页 5/10 (start=100) ---
+2026-05-13 11:11:04 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:11:06 - selenium_crawler - INFO - 列表页 start=100 完成, 获得 25 部
+2026-05-13 11:11:09 - selenium_crawler - INFO - --- 列表页 6/10 (start=125) ---
+2026-05-13 11:11:13 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:11:14 - selenium_crawler - INFO - 列表页 start=125 完成, 获得 25 部
+2026-05-13 11:11:18 - selenium_crawler - INFO - --- 列表页 7/10 (start=150) ---
+2026-05-13 11:11:22 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:11:23 - selenium_crawler - INFO - 列表页 start=150 完成, 获得 25 部
+2026-05-13 11:11:26 - selenium_crawler - INFO - --- 列表页 8/10 (start=175) ---
+2026-05-13 11:11:30 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:11:31 - selenium_crawler - INFO - 列表页 start=175 完成, 获得 25 部
+2026-05-13 11:11:34 - selenium_crawler - INFO - --- 列表页 9/10 (start=200) ---
+2026-05-13 11:11:36 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:11:37 - selenium_crawler - INFO - 列表页 start=200 完成, 获得 25 部
+2026-05-13 11:11:40 - selenium_crawler - INFO - --- 列表页 10/10 (start=225) ---
+2026-05-13 11:11:44 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:11:45 - selenium_crawler - INFO - 列表页 start=225 完成, 获得 25 部
+2026-05-13 11:11:45 - selenium_crawler - INFO - 列表页完成: 250 部
+2026-05-13 11:11:45 - selenium_crawler - INFO - --- 详情页: 250 部待爬 ---
+2026-05-13 11:11:45 - selenium_crawler - INFO - 详情进度: 1/250
+2026-05-13 11:12:40 - selenium_crawler - INFO - 详情进度: 11/250
+2026-05-13 11:13:38 - selenium_crawler - INFO - 详情进度: 21/250
+2026-05-13 11:14:32 - selenium_crawler - INFO - 详情进度: 31/250
+2026-05-13 11:15:35 - selenium_crawler - INFO - 详情进度: 41/250
+2026-05-13 11:16:04 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 11:16:05 - selenium_crawler - INFO - ==================================================
+2026-05-13 11:16:05 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 11:16:05 - selenium_crawler - INFO - 已有=0, 需爬列表=True, 详情=True, 短评=True
+2026-05-13 11:16:05 - selenium_crawler - INFO - ==================================================
+2026-05-13 11:16:08 - selenium_crawler - INFO - 已注入 17/17 条Cookie到浏览器
+2026-05-13 11:16:10 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 11:16:12 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:14 - selenium_crawler - INFO - 列表页 start=0 完成, 获得 25 部
+2026-05-13 11:16:16 - selenium_crawler - INFO - --- 列表页 2/10 (start=25) ---
+2026-05-13 11:16:17 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:18 - selenium_crawler - INFO - 列表页 start=25 完成, 获得 25 部
+2026-05-13 11:16:20 - selenium_crawler - INFO - --- 列表页 3/10 (start=50) ---
+2026-05-13 11:16:22 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:23 - selenium_crawler - INFO - 列表页 start=50 完成, 获得 25 部
+2026-05-13 11:16:25 - selenium_crawler - INFO - --- 列表页 4/10 (start=75) ---
+2026-05-13 11:16:26 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:29 - selenium_crawler - INFO - 列表页 start=75 完成, 获得 25 部
+2026-05-13 11:16:30 - selenium_crawler - INFO - --- 列表页 5/10 (start=100) ---
+2026-05-13 11:16:32 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:33 - selenium_crawler - INFO - 列表页 start=100 完成, 获得 25 部
+2026-05-13 11:16:35 - selenium_crawler - INFO - --- 列表页 6/10 (start=125) ---
+2026-05-13 11:16:37 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:38 - selenium_crawler - INFO - 列表页 start=125 完成, 获得 25 部
+2026-05-13 11:16:40 - selenium_crawler - INFO - --- 列表页 7/10 (start=150) ---
+2026-05-13 11:16:42 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:43 - selenium_crawler - INFO - 列表页 start=150 完成, 获得 25 部
+2026-05-13 11:16:45 - selenium_crawler - INFO - --- 列表页 8/10 (start=175) ---
+2026-05-13 11:16:47 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:48 - selenium_crawler - INFO - 列表页 start=175 完成, 获得 25 部
+2026-05-13 11:16:50 - selenium_crawler - INFO - --- 列表页 9/10 (start=200) ---
+2026-05-13 11:16:52 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:16:56 - selenium_crawler - INFO - 列表页 start=200 完成, 获得 25 部
+2026-05-13 11:16:58 - selenium_crawler - INFO - --- 列表页 10/10 (start=225) ---
+2026-05-13 11:17:00 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 11:17:01 - selenium_crawler - INFO - 列表页 start=225 完成, 获得 25 部
+2026-05-13 11:17:01 - selenium_crawler - INFO - 列表页完成: 250 部
+2026-05-13 11:17:01 - selenium_crawler - INFO - --- 详情页: 250 部待爬 ---
+2026-05-13 11:17:01 - selenium_crawler - INFO - 详情进度: 1/250
+2026-05-13 11:17:37 - selenium_crawler - INFO - 详情进度: 11/250
+2026-05-13 11:18:12 - selenium_crawler - INFO - 详情进度: 21/250
+2026-05-13 11:18:48 - selenium_crawler - INFO - 详情进度: 31/250
+2026-05-13 11:19:24 - selenium_crawler - INFO - 详情进度: 41/250
+2026-05-13 11:19:58 - selenium_crawler - INFO - 详情进度: 51/250
+2026-05-13 11:20:31 - selenium_crawler - INFO - 详情进度: 61/250
+2026-05-13 11:21:05 - selenium_crawler - INFO - 详情进度: 71/250
+2026-05-13 11:21:42 - selenium_crawler - INFO - 详情进度: 81/250
+2026-05-13 11:22:23 - selenium_crawler - INFO - 详情进度: 91/250
+2026-05-13 11:22:58 - selenium_crawler - INFO - 详情进度: 101/250
+2026-05-13 11:23:32 - selenium_crawler - INFO - 详情进度: 111/250
+2026-05-13 11:24:11 - selenium_crawler - INFO - 详情进度: 121/250
+2026-05-13 11:24:48 - selenium_crawler - INFO - 详情进度: 131/250
+2026-05-13 11:25:28 - selenium_crawler - INFO - 详情进度: 141/250
+2026-05-13 11:26:05 - selenium_crawler - INFO - 详情进度: 151/250
+2026-05-13 11:26:39 - selenium_crawler - INFO - 详情进度: 161/250
+2026-05-13 11:27:12 - selenium_crawler - INFO - 详情进度: 171/250
+2026-05-13 11:27:48 - selenium_crawler - INFO - 详情进度: 181/250
+2026-05-13 11:28:23 - selenium_crawler - INFO - 详情进度: 191/250
+2026-05-13 11:29:01 - selenium_crawler - INFO - 详情进度: 201/250
+2026-05-13 11:29:37 - selenium_crawler - INFO - 详情进度: 211/250
+2026-05-13 11:30:11 - selenium_crawler - INFO - 详情进度: 221/250
+2026-05-13 11:30:45 - selenium_crawler - INFO - 详情进度: 231/250
+2026-05-13 11:31:21 - selenium_crawler - INFO - 详情进度: 241/250
+2026-05-13 11:31:58 - selenium_crawler - INFO - --- 短评: 250 部待爬 ---
+2026-05-13 11:31:58 - selenium_crawler - INFO - 短评进度: 1/250, 已获0条
+2026-05-13 11:33:22 - selenium_crawler - INFO - 短评进度: 6/250, 已获100条
+2026-05-13 11:34:45 - selenium_crawler - INFO - 短评进度: 11/250, 已获200条
+2026-05-13 11:36:10 - selenium_crawler - INFO - 短评进度: 16/250, 已获300条
+2026-05-13 11:37:34 - selenium_crawler - INFO - 短评进度: 21/250, 已获400条
+2026-05-13 11:38:58 - selenium_crawler - INFO - 短评进度: 26/250, 已获500条
+2026-05-13 11:40:18 - selenium_crawler - INFO - 短评进度: 31/250, 已获600条
+2026-05-13 11:41:41 - selenium_crawler - INFO - 短评进度: 36/250, 已获700条
+2026-05-13 11:43:04 - selenium_crawler - INFO - 短评进度: 41/250, 已获800条
+2026-05-13 11:44:28 - selenium_crawler - INFO - 短评进度: 46/250, 已获900条
+2026-05-13 11:45:52 - selenium_crawler - INFO - 短评进度: 51/250, 已获1000条
+2026-05-13 11:47:19 - selenium_crawler - INFO - 短评进度: 56/250, 已获1100条
+2026-05-13 11:48:41 - selenium_crawler - INFO - 短评进度: 61/250, 已获1200条
+2026-05-13 11:50:03 - selenium_crawler - INFO - 短评进度: 66/250, 已获1300条
+2026-05-13 11:51:29 - selenium_crawler - INFO - 短评进度: 71/250, 已获1400条
+2026-05-13 11:52:51 - selenium_crawler - INFO - 短评进度: 76/250, 已获1500条
+2026-05-13 11:54:16 - selenium_crawler - INFO - 短评进度: 81/250, 已获1600条
+2026-05-13 11:55:41 - selenium_crawler - INFO - 短评进度: 86/250, 已获1700条
+2026-05-13 11:57:07 - selenium_crawler - INFO - 短评进度: 91/250, 已获1800条
+2026-05-13 11:58:31 - selenium_crawler - INFO - 短评进度: 96/250, 已获1900条
+2026-05-13 11:59:55 - selenium_crawler - INFO - 短评进度: 101/250, 已获2000条
+2026-05-13 12:01:17 - selenium_crawler - INFO - 短评进度: 106/250, 已获2100条
+2026-05-13 12:02:40 - selenium_crawler - INFO - 短评进度: 111/250, 已获2200条
+2026-05-13 12:04:04 - selenium_crawler - INFO - 短评进度: 116/250, 已获2300条
+2026-05-13 12:05:29 - selenium_crawler - INFO - 短评进度: 121/250, 已获2400条
+2026-05-13 12:07:09 - selenium_crawler - INFO - 短评进度: 126/250, 已获2500条
+2026-05-13 12:08:38 - selenium_crawler - INFO - 短评进度: 131/250, 已获2600条
+2026-05-13 12:09:10 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 12:09:12 - selenium_crawler - ERROR - ChromeDriver初始化失败: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7844cd685+14ef5]
+	chromedriver!GetHandleVerifier [0x7ff7844cd6f0+14f60]
+	chromedriver!(No symbol) [0x7ff78421d59d]
+	chromedriver!(No symbol) [0x7ff78425e6fb]
+	chromedriver!(No symbol) [0x7ff784259b59]
+	chromedriver!(No symbol) [0x7ff7842ad9e1]
+	chromedriver!(No symbol) [0x7ff7842ad246]
+	chromedriver!(No symbol) [0x7ff784269608]
+	chromedriver!(No symbol) [0x7ff78426a4f3]
+	chromedriver!GetHandleVerifier [0x7ff7847cb719+312f89]
+	chromedriver!GetHandleVerifier [0x7ff7847c5c2b+30d49b]
+	chromedriver!GetHandleVerifier [0x7ff7847e8fb2+330822]
+	chromedriver!GetHandleVerifier [0x7ff7844ea435+31ca5]
+	chromedriver!GetHandleVerifier [0x7ff7844f2e2c+3a69c]
+	chromedriver!GetHandleVerifier [0x7ff7844d6a24+1e294]
+	chromedriver!GetHandleVerifier [0x7ff7844d6bb4+1e424]
+	chromedriver!GetHandleVerifier [0x7ff7844bb2d7+2b47]
+	KERNEL32!BaseThreadInitThunk [0x7ffd57cae957+17]
+	ntdll!RtlUserThreadStart [0x7ffd5874427c+2c]
+
+2026-05-13 12:09:12 - selenium_crawler - ERROR - 可能原因:
+2026-05-13 12:09:12 - selenium_crawler - ERROR -   1. ChromeDriver版本与Chrome浏览器不匹配
+2026-05-13 12:09:12 - selenium_crawler - ERROR -   2. Chrome浏览器未安装
+2026-05-13 12:09:12 - selenium_crawler - ERROR -   3. Chrome正在运行中(请先关闭Chrome)
+2026-05-13 12:09:12 - selenium_crawler - ERROR -      Chrome用户数据被锁 -> 关闭所有Chrome窗口后重试
+2026-05-13 12:09:21 - data_cleaner - INFO - 已加载 0 部电影, 0 条短评
+2026-05-13 12:09:24 - selenium_crawler - INFO - Chrome临时数据目录: C:\Users\项玉婷\AppData\Local\Temp\chrome_selenium_douban
+2026-05-13 12:09:24 - selenium_crawler - INFO - ==================================================
+2026-05-13 12:09:24 - selenium_crawler - INFO - Selenium爬虫开始 (使用Chrome浏览器)
+2026-05-13 12:09:24 - selenium_crawler - INFO - 已有=0, 需爬列表=True, 详情=True, 短评=True
+2026-05-13 12:09:24 - selenium_crawler - INFO - ==================================================
+2026-05-13 12:09:27 - selenium_crawler - INFO - 已注入 17/17 条Cookie到浏览器
+2026-05-13 12:09:29 - selenium_crawler - INFO - --- 列表页 1/10 (start=0) ---
+2026-05-13 12:09:30 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:09:32 - selenium_crawler - INFO - 列表页 start=0 完成, 获得 25 部
+2026-05-13 12:09:33 - selenium_crawler - INFO - --- 列表页 2/10 (start=25) ---
+2026-05-13 12:09:35 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:09:36 - selenium_crawler - INFO - 列表页 start=25 完成, 获得 25 部
+2026-05-13 12:09:38 - selenium_crawler - INFO - --- 列表页 3/10 (start=50) ---
+2026-05-13 12:09:40 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:09:41 - selenium_crawler - INFO - 列表页 start=50 完成, 获得 25 部
+2026-05-13 12:09:42 - selenium_crawler - INFO - --- 列表页 4/10 (start=75) ---
+2026-05-13 12:09:44 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:09:45 - selenium_crawler - INFO - 列表页 start=75 完成, 获得 25 部
+2026-05-13 12:09:47 - selenium_crawler - INFO - --- 列表页 5/10 (start=100) ---
+2026-05-13 12:09:49 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:09:50 - selenium_crawler - INFO - 列表页 start=100 完成, 获得 25 部
+2026-05-13 12:09:51 - selenium_crawler - INFO - --- 列表页 6/10 (start=125) ---
+2026-05-13 12:09:52 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:09:54 - selenium_crawler - INFO - 列表页 start=125 完成, 获得 25 部
+2026-05-13 12:09:55 - selenium_crawler - INFO - --- 列表页 7/10 (start=150) ---
+2026-05-13 12:09:57 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:09:58 - selenium_crawler - INFO - 列表页 start=150 完成, 获得 25 部
+2026-05-13 12:10:00 - selenium_crawler - INFO - --- 列表页 8/10 (start=175) ---
+2026-05-13 12:10:01 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:10:02 - selenium_crawler - INFO - 列表页 start=175 完成, 获得 25 部
+2026-05-13 12:10:04 - selenium_crawler - INFO - --- 列表页 9/10 (start=200) ---
+2026-05-13 12:10:06 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:10:07 - selenium_crawler - INFO - 列表页 start=200 完成, 获得 25 部
+2026-05-13 12:10:08 - selenium_crawler - INFO - --- 列表页 10/10 (start=225) ---
+2026-05-13 12:10:10 - selenium_crawler - INFO -   选择器: ol.grid_view > li, 找到 25 个
+2026-05-13 12:10:11 - selenium_crawler - INFO - 列表页 start=225 完成, 获得 25 部
+2026-05-13 12:10:11 - selenium_crawler - INFO - 列表页完成: 250 部
+2026-05-13 12:10:11 - selenium_crawler - INFO - --- 详情页: 250 部待爬 ---
+2026-05-13 12:10:11 - selenium_crawler - INFO - 详情进度: 1/250
+2026-05-13 12:10:45 - selenium_crawler - INFO - 详情进度: 11/250
+2026-05-13 12:11:19 - selenium_crawler - INFO - 详情进度: 21/250
+2026-05-13 12:11:56 - selenium_crawler - INFO - 详情进度: 31/250
+2026-05-13 12:12:34 - selenium_crawler - INFO - 详情进度: 41/250
+2026-05-13 12:13:09 - selenium_crawler - INFO - 详情进度: 51/250
+2026-05-13 12:13:45 - selenium_crawler - INFO - 详情进度: 61/250
+2026-05-13 12:14:21 - selenium_crawler - INFO - 详情进度: 71/250
+2026-05-13 12:14:58 - selenium_crawler - INFO - 详情进度: 81/250
+2026-05-13 12:15:33 - selenium_crawler - INFO - 详情进度: 91/250
+2026-05-13 12:16:15 - selenium_crawler - INFO - 详情进度: 101/250
+2026-05-13 12:17:07 - selenium_crawler - INFO - 详情进度: 111/250
+2026-05-13 12:17:48 - selenium_crawler - INFO - 详情进度: 121/250
+2026-05-13 12:18:26 - selenium_crawler - INFO - 详情进度: 131/250
+2026-05-13 12:19:00 - selenium_crawler - INFO - 详情进度: 141/250
+2026-05-13 12:19:40 - selenium_crawler - INFO - 详情进度: 151/250
+2026-05-13 12:20:19 - selenium_crawler - INFO - 详情进度: 161/250
+2026-05-13 12:20:55 - selenium_crawler - INFO - 详情进度: 171/250
+2026-05-13 12:21:33 - selenium_crawler - INFO - 详情进度: 181/250
+2026-05-13 12:22:07 - selenium_crawler - INFO - 详情进度: 191/250
+2026-05-13 12:22:46 - selenium_crawler - INFO - 详情进度: 201/250
+2026-05-13 12:23:23 - selenium_crawler - INFO - 详情进度: 211/250
+2026-05-13 12:24:02 - selenium_crawler - INFO - 详情进度: 221/250
+2026-05-13 12:24:38 - selenium_crawler - INFO - 详情进度: 231/250
+2026-05-13 12:25:14 - selenium_crawler - INFO - 详情进度: 241/250
+2026-05-13 12:25:49 - selenium_crawler - INFO - --- 短评: 250 部待爬 ---
+2026-05-13 12:25:49 - selenium_crawler - INFO - 短评进度: 1/250, 已获0条
+2026-05-13 12:27:11 - selenium_crawler - INFO - 短评进度: 6/250, 已获100条
+2026-05-13 12:28:35 - selenium_crawler - INFO - 短评进度: 11/250, 已获200条
+2026-05-13 12:29:59 - selenium_crawler - INFO - 短评进度: 16/250, 已获300条
+2026-05-13 12:31:25 - selenium_crawler - INFO - 短评进度: 21/250, 已获400条
+2026-05-13 12:32:54 - selenium_crawler - INFO - 短评进度: 26/250, 已获500条
+2026-05-13 12:34:24 - selenium_crawler - INFO - 短评进度: 31/250, 已获600条
+2026-05-13 12:35:47 - selenium_crawler - INFO - 短评进度: 36/250, 已获700条
+2026-05-13 12:37:09 - selenium_crawler - INFO - 短评进度: 41/250, 已获800条
+2026-05-13 12:38:34 - selenium_crawler - INFO - 短评进度: 46/250, 已获900条
+2026-05-13 12:39:57 - selenium_crawler - INFO - 短评进度: 51/250, 已获1000条
+2026-05-13 12:41:19 - selenium_crawler - INFO - 短评进度: 56/250, 已获1100条
+2026-05-13 12:42:43 - selenium_crawler - INFO - 短评进度: 61/250, 已获1200条
+2026-05-13 12:44:08 - selenium_crawler - INFO - 短评进度: 66/250, 已获1300条
+2026-05-13 12:45:34 - selenium_crawler - INFO - 短评进度: 71/250, 已获1400条
+2026-05-13 12:47:02 - selenium_crawler - INFO - 短评进度: 76/250, 已获1500条
+2026-05-13 12:48:26 - selenium_crawler - INFO - 短评进度: 81/250, 已获1600条
+2026-05-13 12:49:48 - selenium_crawler - INFO - 短评进度: 86/250, 已获1700条
+2026-05-13 12:51:16 - selenium_crawler - INFO - 短评进度: 91/250, 已获1800条
+2026-05-13 12:52:40 - selenium_crawler - INFO - 短评进度: 96/250, 已获1900条
+2026-05-13 12:54:03 - selenium_crawler - INFO - 短评进度: 101/250, 已获2000条
+2026-05-13 12:55:31 - selenium_crawler - INFO - 短评进度: 106/250, 已获2100条
+2026-05-13 12:56:56 - selenium_crawler - INFO - 短评进度: 111/250, 已获2200条
+2026-05-13 12:58:24 - selenium_crawler - INFO - 短评进度: 116/250, 已获2300条
+2026-05-13 12:59:48 - selenium_crawler - INFO - 短评进度: 121/250, 已获2400条
+2026-05-13 13:01:15 - selenium_crawler - INFO - 短评进度: 126/250, 已获2500条
+2026-05-13 13:02:43 - selenium_crawler - INFO - 短评进度: 131/250, 已获2600条
+2026-05-13 13:04:09 - selenium_crawler - INFO - 短评进度: 136/250, 已获2700条
+2026-05-13 13:05:35 - selenium_crawler - INFO - 短评进度: 141/250, 已获2800条
+2026-05-13 13:06:59 - selenium_crawler - INFO - 短评进度: 146/250, 已获2900条
+2026-05-13 13:08:25 - selenium_crawler - INFO - 短评进度: 151/250, 已获3000条
+2026-05-13 13:09:49 - selenium_crawler - INFO - 短评进度: 156/250, 已获3100条
+2026-05-13 13:11:13 - selenium_crawler - INFO - 短评进度: 161/250, 已获3200条
+2026-05-13 13:12:39 - selenium_crawler - INFO - 短评进度: 166/250, 已获3300条
+2026-05-13 13:14:01 - selenium_crawler - INFO - 短评进度: 171/250, 已获3400条
+2026-05-13 13:15:27 - selenium_crawler - INFO - 短评进度: 176/250, 已获3500条
+2026-05-13 13:16:53 - selenium_crawler - INFO - 短评进度: 181/250, 已获3600条
+2026-05-13 13:18:12 - selenium_crawler - INFO - 短评进度: 186/250, 已获3700条
+2026-05-13 13:19:36 - selenium_crawler - INFO - 短评进度: 191/250, 已获3800条
+2026-05-13 13:20:58 - selenium_crawler - INFO - 短评进度: 196/250, 已获3900条
+2026-05-13 13:22:23 - selenium_crawler - INFO - 短评进度: 201/250, 已获4000条
+2026-05-13 13:23:49 - selenium_crawler - INFO - 短评进度: 206/250, 已获4100条
+2026-05-13 13:25:13 - selenium_crawler - INFO - 短评进度: 211/250, 已获4200条
+2026-05-13 13:26:36 - selenium_crawler - INFO - 短评进度: 216/250, 已获4300条
+2026-05-13 13:28:01 - selenium_crawler - INFO - 短评进度: 221/250, 已获4400条
+2026-05-13 13:29:27 - selenium_crawler - INFO - 短评进度: 226/250, 已获4500条
+2026-05-13 13:30:50 - selenium_crawler - INFO - 短评进度: 231/250, 已获4600条
+2026-05-13 13:32:16 - selenium_crawler - INFO - 短评进度: 236/250, 已获4700条
+2026-05-13 13:33:44 - selenium_crawler - INFO - 短评进度: 241/250, 已获4800条
+2026-05-13 13:35:08 - selenium_crawler - INFO - 短评进度: 246/250, 已获4900条
+2026-05-13 13:36:33 - selenium_crawler - INFO - 短评完成: 5000 条
+2026-05-13 13:36:36 - image_downloader - INFO - 开始下载海报，共 250 部电影...
+2026-05-13 13:36:36 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp
+2026-05-13 13:36:37 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp
+2026-05-13 13:36:39 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp
+2026-05-13 13:36:39 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.webp
+2026-05-13 13:36:40 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911205318.webp
+2026-05-13 13:36:41 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911205318.webp
+2026-05-13 13:36:43 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911205318.webp
+2026-05-13 13:36:43 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911205318.webp
+2026-05-13 13:36:44 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p457760035.webp
+2026-05-13 13:36:45 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p457760035.webp
+2026-05-13 13:36:47 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p457760035.webp
+2026-05-13 13:36:47 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p457760035.webp
+2026-05-13 13:36:48 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.webp
+2026-05-13 13:36:49 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.webp
+2026-05-13 13:36:51 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.webp
+2026-05-13 13:36:51 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.webp
+2026-05-13 13:36:51 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.webp
+2026-05-13 13:36:52 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.webp
+2026-05-13 13:36:54 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.webp
+2026-05-13 13:36:54 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.webp
+2026-05-13 13:36:55 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.webp
+2026-05-13 13:36:56 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.webp
+2026-05-13 13:36:58 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.webp
+2026-05-13 13:36:58 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.webp
+2026-05-13 13:36:59 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.webp
+2026-05-13 13:37:00 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.webp
+2026-05-13 13:37:02 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.webp
+2026-05-13 13:37:02 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.webp
+2026-05-13 13:37:03 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913554676.webp
+2026-05-13 13:37:04 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913554676.webp
+2026-05-13 13:37:06 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913554676.webp
+2026-05-13 13:37:06 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913554676.webp
+2026-05-13 13:37:06 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.webp
+2026-05-13 13:37:08 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.webp
+2026-05-13 13:37:10 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.webp
+2026-05-13 13:37:10 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.webp
+2026-05-13 13:37:10 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.webp
+2026-05-13 13:37:11 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.webp
+2026-05-13 13:37:13 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.webp
+2026-05-13 13:37:13 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.webp
+2026-05-13 13:37:14 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.webp
+2026-05-13 13:37:15 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.webp
+2026-05-13 13:37:17 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.webp
+2026-05-13 13:37:17 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.webp
+2026-05-13 13:37:18 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2587099240.webp
+2026-05-13 13:37:19 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2587099240.webp
+2026-05-13 13:37:21 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2587099240.webp
+2026-05-13 13:37:21 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2587099240.webp
+2026-05-13 13:37:22 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914698334.webp
+2026-05-13 13:37:23 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914698334.webp
+2026-05-13 13:37:25 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914698334.webp
+2026-05-13 13:37:25 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914698334.webp
+2026-05-13 13:37:26 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924128964.webp
+2026-05-13 13:37:27 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924128964.webp
+2026-05-13 13:37:29 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924128964.webp
+2026-05-13 13:37:29 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924128964.webp
+2026-05-13 13:37:30 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.webp
+2026-05-13 13:37:31 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.webp
+2026-05-13 13:37:33 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.webp
+2026-05-13 13:37:33 - image_downloader - ERROR - 海报下载最终失败: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.webp
+2026-05-13 13:37:34 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.webp
+2026-05-13 13:37:35 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.webp
+2026-05-13 13:37:37 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.webp
+2026-05-13 13:37:37 - image_downloader - ERROR - 海报下载最终失败: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.webp
+2026-05-13 13:37:38 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2884280708.webp
+2026-05-13 13:37:39 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2884280708.webp
+2026-05-13 13:37:41 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2884280708.webp
+2026-05-13 13:37:41 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2884280708.webp
+2026-05-13 13:37:42 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597979873.webp
+2026-05-13 13:37:43 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597979873.webp
+2026-05-13 13:37:45 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597979873.webp
+2026-05-13 13:37:45 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597979873.webp
+2026-05-13 13:37:45 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2927451337.webp
+2026-05-13 13:37:46 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2927451337.webp
+2026-05-13 13:37:48 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2927451337.webp
+2026-05-13 13:37:48 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2927451337.webp
+2026-05-13 13:37:49 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2461812747.webp
+2026-05-13 13:37:50 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2461812747.webp
+2026-05-13 13:37:52 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2461812747.webp
+2026-05-13 13:37:52 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2461812747.webp
+2026-05-13 13:37:52 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.webp
+2026-05-13 13:37:53 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.webp
+2026-05-13 13:37:56 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.webp
+2026-05-13 13:37:56 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.webp
+2026-05-13 13:37:56 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1363250216.webp
+2026-05-13 13:37:57 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1363250216.webp
+2026-05-13 13:37:59 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1363250216.webp
+2026-05-13 13:37:59 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1363250216.webp
+2026-05-13 13:38:00 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.webp
+2026-05-13 13:38:01 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.webp
+2026-05-13 13:38:03 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.webp
+2026-05-13 13:38:03 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.webp
+2026-05-13 13:38:04 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.webp
+2026-05-13 13:38:05 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.webp
+2026-05-13 13:38:07 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.webp
+2026-05-13 13:38:07 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.webp
+2026-05-13 13:38:08 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p452089833.webp
+2026-05-13 13:38:09 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p452089833.webp
+2026-05-13 13:38:11 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p452089833.webp
+2026-05-13 13:38:11 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p452089833.webp
+2026-05-13 13:38:11 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.webp
+2026-05-13 13:38:13 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.webp
+2026-05-13 13:38:15 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.webp
+2026-05-13 13:38:15 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.webp
+2026-05-13 13:38:15 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.webp
+2026-05-13 13:38:16 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.webp
+2026-05-13 13:38:19 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.webp
+2026-05-13 13:38:19 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.webp
+2026-05-13 13:38:19 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp
+2026-05-13 13:38:20 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp
+2026-05-13 13:38:22 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp
+2026-05-13 13:38:22 - image_downloader - ERROR - 海报下载最终失败: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp
+2026-05-13 13:38:23 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597919477.webp
+2026-05-13 13:38:24 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597919477.webp
+2026-05-13 13:38:26 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597919477.webp
+2026-05-13 13:38:26 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597919477.webp
+2026-05-13 13:38:27 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.webp
+2026-05-13 13:38:28 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.webp
+2026-05-13 13:38:30 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.webp
+2026-05-13 13:38:30 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.webp
+2026-05-13 13:38:31 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.webp
+2026-05-13 13:38:32 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.webp
+2026-05-13 13:38:34 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.webp
+2026-05-13 13:38:34 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.webp
+2026-05-13 13:38:35 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2642829472.webp
+2026-05-13 13:38:36 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2642829472.webp
+2026-05-13 13:38:38 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2642829472.webp
+2026-05-13 13:38:38 - image_downloader - ERROR - 海报下载最终失败: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2642829472.webp
+2026-05-13 13:38:38 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2527119568.webp
+2026-05-13 13:38:39 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2527119568.webp
+2026-05-13 13:38:42 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2527119568.webp
+2026-05-13 13:38:42 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2527119568.webp
+2026-05-13 13:38:42 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1963126880.webp
+2026-05-13 13:38:43 - image_downloader - WARNING - 海报下载失败 (418) 尝试 2/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1963126880.webp
+2026-05-13 13:38:46 - image_downloader - WARNING - 海报下载失败 (418) 尝试 3/3: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1963126880.webp
+2026-05-13 13:38:46 - image_downloader - ERROR - 海报下载最终失败: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1963126880.webp
+2026-05-13 13:38:46 - image_downloader - WARNING - 海报下载失败 (418) 尝试 1/3: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p485887754.webp
