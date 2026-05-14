@@ -124,17 +124,23 @@ def download_posters(all_movies):
                     logger.info(f"海报进度: {i+1}/250, 下载{downloaded} 跳过{skipped} 失败{failed}")
                 continue
 
-            url = m.get("poster_path", "") or m.get("poster_url", "")
-            if not url:
+            detail_url = m.get("detail_url", "")
+            if not detail_url:
                 failed += 1
                 continue
 
             try:
-                sel.driver.get(url)
-                _time.sleep(0.5)
-                sel.driver.save_screenshot(filepath)
-                m["poster_path"] = filepath
-                downloaded += 1
+                # 从详情页截取海报（带Referer，CDN不会拦）
+                sel.driver.get(detail_url)
+                _time.sleep(1)
+                poster_img_el = sel.driver.find_element("css selector", "#mainpic img")
+                poster_img_el.screenshot(filepath)
+                if _os.path.getsize(filepath) > 5000:
+                    m["poster_path"] = filepath
+                    downloaded += 1
+                else:
+                    _os.remove(filepath)
+                    failed += 1
                 _time.sleep(0.3)
             except Exception:
                 failed += 1
